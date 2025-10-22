@@ -9,10 +9,10 @@ It demonstrates both sampling (random surfer model) and iterative algorithm meth
 Random Surfer Model: Sampling method simulates a random surfer moving between pages based on link probabilities and a damping factor.
 Iterative Algorithm: The Iterative method repeatedly updates PageRank values across all pages until they converge to stable probabilities
 
-pagerank/
- ┣ pagerank.py       # Your main Python code implementing PageRank
- ┣ corpus/           # Folder containing HTML files (the web pages to analyse)
- ┗ README.md         # This documentation file
+## pagerank/
+ pagerank.py       # Your main Python code implementing PageRank
+ corpus          # FolderS containing HTML files (the web pages to analyse)
+ README.md         # This documentation file
 
 ## Installation
 This project uses only Python standard libraries
